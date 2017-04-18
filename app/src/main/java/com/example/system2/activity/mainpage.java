@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Toast;
 
 import com.bigkoo.convenientbanner.ConvenientBanner;
 import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
@@ -25,7 +24,7 @@ import java.util.Random;
 
 public class mainpage extends AppCompatActivity{
     private ConvenientBanner convenientBanner;//顶部广告栏控件
-    private ArrayList<Integer> localImages = new ArrayList<Integer>();
+    private ArrayList<Integer> localImages = new ArrayList<>();
     RecyclerView mRecyclerView;
     DataBindingUseAdapter mAdapter;
 
